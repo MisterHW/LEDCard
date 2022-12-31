@@ -61,6 +61,7 @@ Ideas:
 
 - Disable the boost converter when battery voltage under load drops below 2.5V (internal resistance is significant, maximum discharge current 2*60 mA is not great but can only be addressed with better / bigger cells or fragile pouch cells).
 - Manage two power levels with a single push button that allows intuitive half / full press.
+- Battery Level Test: half-press SW1 so the LED light turns on. When pressing TEST, the LEDs should turn off. Once they stay lit, the battery level is low. This works by forming a voltage divider to VCC. As VCC drops, FB is low enough to cause the boost converter to turn back on.
 - TEST button at the edge does not cause the LEDCard to turn on when pressed accidentally.
 
 ![](img/LEDCard-1E_assy.jpg)
@@ -68,6 +69,7 @@ Ideas:
 Insights:
 
 - Half press button is unpleasant, needs a printed / formed button cap to be useful. Idea to shield the button with battery clips around it is effective at preventing accidental presses, but also makes use harder.
+- Tantalum capacitor in the picture was experimental and helped demonstrate that operation with USB connected is not possible without raising the charger current in LED on mode.
 - SMD slider switch would be nice to enable continuous / hands-free operation (especially when USB is plugged in).
 - USB-C to be considered for next iteration.
 - LIR2430 cell found to be dead after 2 years of storage. Remove cells when not in use for > 4 weeks.
