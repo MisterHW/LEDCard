@@ -88,7 +88,7 @@ Insights:
 
 #### Lenses
 
-16.5mm diameter molded acrylic lenses:
+16.5mm diameter plano-convex molded acrylic lenses:
 
 - f = +49 mm, https://astromedia.de/Opti-Media-Linse-OM4
 - f = +65 mm, https://astromedia.de/Opti-Media-Linse-OM5
