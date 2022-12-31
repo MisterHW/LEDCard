@@ -6,6 +6,8 @@ A credit card - sized, slim ring light with a  Li-Ion powered LED ring light for
 
 ## Revisions
 
+Only revision 1E files (Eagle 7 format) were recovered at the time of this writing. Nevertheless, images and information about earlier versions are provided below to illustrate thoughts and decisions.
+
 ### LEDCard-1A : first prototype
 
 Ideas:
@@ -26,6 +28,7 @@ Insights:
 - LED efficiency too low (~50 lm/W)
 - CR2032 batteries inadequate
 - Inrush current may lead to contact degradation of the push button over time.
+- Rubber band idea turned out to be more of a fight than a feature. Covering the bottom side with tape may be more effective to prevent the board from sliding around on the smartphone. When combined with elastomeric protective cases, no additional material may be needed.
 
 Switch from FAN5331 (Rds(ON) = 0.5 Ohm, 1.6 MHz) to LM3410Y (Rds(ON) = 0.17 Ohm, 0.525 MHz and 1.6 MHz options):
 
@@ -51,7 +54,7 @@ Ideas:
 Insights:
 
 - Li-Ion cells can deep discharge and be destroyed.
-- MCP73831 Li-Ion charging IC developed an intermittent solder joint after > 1 year of use in wallet, probably due to flexural stresses. Switch to MSOP recommended.
+- MCP73831 Li-Ion charging IC developed an intermittent solder joint failure after > 1 year of use in wallet, probably due to flexural stresses. Switch to MSOP recommended. Resolved by reflowing with pre-heater and hot air.
 - 1.0mm FR4 is not stiff enough. Switch to 0.4mm or 0.6 mm FR4 and laminate onto laser-cut and deburred Ti sheet metal (see cad/ folder for .dxf file).
 - ON button should raise MCP73831 charge current to allow USB-powered operation with a cable plugged in.
 
