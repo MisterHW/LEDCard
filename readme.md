@@ -87,11 +87,11 @@ Insights:
 
 16.5mm diameter molded acrylic lenses:
 
-- https://astromedia.de/Opti-Media-Linse-OM4
-- https://astromedia.de/Opti-Media-Linse-OM5
-- https://astromedia.de/Opti-Media-Linse-OM6
+- f = +49 mm, https://astromedia.de/Opti-Media-Linse-OM4
+- f = +65 mm, https://astromedia.de/Opti-Media-Linse-OM5
+- f = +120 mm, https://astromedia.de/Opti-Media-Linse-OM6
 
-Monted with clear epoxy (Uhu Endfest). For mounting, put Al tape on the back of the LEDCard PCB and place the lens in its designated location. Rub the tape to get complete adhesion without air pockets to avoid seeping of the epoxy.
+Mounted with clear epoxy (Uhu Endfest). For mounting, put Al tape on the back of the LEDCard PCB and place the lens in its designated location. Rub the tape to get complete adhesion without air pockets to avoid seeping of the epoxy.
 
 ## Changes
 
