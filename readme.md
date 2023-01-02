@@ -1,6 +1,6 @@
 # LEDCard
 
-A credit card - sized, slim ring light with a  Li-Ion powered LED ring light for high quality macro shots everywhere you go.
+A credit card - sized, slim Li-Ion battery powered LED ring light for better macro shots everywhere you go.
 
 ![](img/LEDCard_showcase.jpg)
 
@@ -95,6 +95,10 @@ Insights:
 - f = +120 mm, https://astromedia.de/Opti-Media-Linse-OM6
 
 Mounted with clear epoxy (Uhu Endfest). For mounting, put Al tape on the back of the LEDCard PCB and place the lens in its designated location. Rub the tape to get complete adhesion without air pockets to avoid seeping of the epoxy.
+
+### Known Issues
+
+Please see https://github.com/MisterHW/LEDCard/issues?q= where known problems are listed and improvements are discussed.
 
 ## License
 
